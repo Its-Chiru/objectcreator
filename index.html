@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Object Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>OBJECT CREATOR</h1>
+    <div id="creator">
+        <p>Create your object!</p>
+        <a>Name:</a>
+        <input type="text" placeholder="Name" id="name">
+        <a>Description:</a>
+        <textarea placeholder="Description" rows="5" id="desc"></textarea>
+        <a>Price:</a>
+        <input type="number" id="price">
+        <button onclick="submitted()">FINISH</button>
+    </div>
+    
+    <div id="final">
+        <h1 id="finalName">Name</h1>
+        <p id="finalDesc">Description</p>
+        <p id="finalPrice">Price</p>
+        <button onclick="goBack();">GO BACK</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
